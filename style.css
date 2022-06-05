@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.navbar{
+
+.navbar {
 
     background-color: rgb(28, 5, 82);
     width: 100%;
@@ -14,40 +15,44 @@
     gap: 35%;
 
 }
-.anchor{
+
+.anchor {
     text-decoration: none;
     color: aliceblue;
     font-family: 'Ubuntu', sans-serif;
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 25px;
-  
- 
+
+
 }
 
-.menu li{
+.menu li {
     list-style-type: none;
     padding-top: 20px;
     font-weight: bold;
     font-size: 20px;
     color: aliceblue;
 }
-.logo{
+
+.logo {
     color: aliceblue;
     font-size: 50px;
     font-weight: 700px;
-    padding-top:5px;
+    padding-top: 5px;
     padding-left: 100px;
 }
-.home{
+
+.home {
     background-image: url(./assets/img/hero-img.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
-    color:  white;
+    color: white;
     background-color: rgb(94, 36, 255);
     width: 100%;
     height: 500px;
@@ -58,15 +63,17 @@
     font-weight: 700;
     font-family: sans-serif;
 }
-.section-heading{
+
+.section-heading {
     padding-top: 40px;
     padding-bottom: 10px;
     text-align: center;
     font-size: 40px;
-    font-family:'Ubuntu', sans-serif;
-    
+    font-family: 'Ubuntu', sans-serif;
+
 }
-.section-subheading{
+
+.section-subheading {
     text-align: center;
     color: red;
     font-size: 20px;
@@ -74,54 +81,104 @@
 }
 
 
-.footer{
-    text-align: center;
-    color:aliceblue;
-    background-color: rgb(28, 5, 82);
-    width: 100%;
-    height: 60px;
-    gap: 35%;
-    padding-top: 15px;
-    font-size: 20px;
-    font-weight: 700;
-
-
-}
-
-
 
 /* anydesk */
-.section-content{
+.section-content {
     display: flex;
-    gap:8%;
+    gap: 8%;
     margin: 0 auto;
-   align-items: center;
+    align-items: center;
 }
 
-.section-text{
+.section-text {
     width: 50%;
-    display: flex;
     text-align: justify;
 }
 
-.section-text p{
-    font-size: 22px;
+
+.section-text p {
+    font-size: 20px;
     line-height: 30px;
     font-family: 'Ubuntu', sans-serif;
 }
+
 .section-imageholder {
     width: 50%;
     padding-left: 10%;
     object-fit: cover;
 }
-.about-image{
+
+.about-image {
     /* float: right; */
     height: 350px;
     width: 350px;
     border-radius: 5px;
 }
 
-.section-wrapper{
+.section-wrapper {
     justify-content: center;
     padding: 5% 5% 5% 10%;
+}
+
+
+.contact-section .section-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contact-section {
+    text-align: left;
+    line-height: 30px;
+}
+
+.mid-content{
+    float: left;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+.text-topic{
+
+    font-size: 22px;
+    padding-left: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 50px;
+    font-weight: 700;
+
+}
+/* 
+.footer {
+    background-color: red;
+    width: 100%;
+} */
+
+.contact-text{
+    width: 50%;
+    font-family: 'Ubuntu', sans-serif;
+    /* text-align: justify; */
+    font-size: 20px;
+    line-height: 30px;
+ 
+}
+
+.contact-from{
+    width: 50%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.widget{
+    padding: 20px 0px 20px 0px;
+}
+
+.text-name{
+    font-size: 20px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 3px;
+    width:500px;
+    padding:5px;
+    margin:5px;
+    border: 1px solid rgb(212, 212, 212);
 }
