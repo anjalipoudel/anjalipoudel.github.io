@@ -31,6 +31,11 @@
 
 }
 
+.home-content {
+    text-shadow: 4px 3px 0 #6d6d69, 9px 8px 0 rgba(8, 1, 1, 0.15);
+}
+
+
 .menu li {
     list-style-type: none;
     padding-top: 20px;
@@ -131,15 +136,15 @@
     line-height: 30px;
 }
 
-.mid-content{
+.mid-content {
     float: left;
     justify-content: center;
     font-family: 'Ubuntu', sans-serif;
-    
+
 }
 
 
-.text-topic{
+.text-topic {
 
     font-size: 22px;
     padding-left: 70px;
@@ -148,37 +153,78 @@
     font-weight: 700;
 
 }
-/* 
-.footer {
-    background-color: red;
-    width: 100%;
-} */
 
-.contact-text{
-    width: 50%;
+.contact-text {
     font-family: 'Ubuntu', sans-serif;
-    /* text-align: justify; */
+    text-align: justify;
     font-size: 20px;
     line-height: 30px;
- 
+
 }
 
-.contact-from{
+.contact-from {
     width: 50%;
     font-family: 'Ubuntu', sans-serif;
 }
 
-.widget{
+.widget {
     padding: 20px 0px 20px 0px;
 }
 
-.text-name{
-    font-size: 20px;
+.text-name {
+    font-size: 18px;
     color: black;
     font-family: 'Ubuntu', sans-serif;
     border-radius: 3px;
-    width:500px;
-    padding:5px;
-    margin:5px;
+    width: 500px;
+    padding: 5px 15px;
+    margin: 5px;
     border: 1px solid rgb(212, 212, 212);
+}
+
+.form-header {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.submit-button {
+    border: none;
+    padding: 13px 15px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: red;
+    color: white;
+    margin-left: 5px;
+}
+
+.section1-text {
+    padding: 10px 15px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 25%;
+    background: radial-gradient(circle, rgba(46, 9, 25, 1) 0%, rgba(35, 10, 77, 1) 100%);
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:25px;
 }
