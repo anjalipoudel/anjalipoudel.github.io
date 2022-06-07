@@ -67,6 +67,7 @@
     padding-left: 100px;
     font-weight: 700;
     font-family: sans-serif;
+    
 }
 
 .section-heading {
@@ -80,7 +81,7 @@
 
 .section-subheading {
     text-align: center;
-    color: red;
+    color: rgb(28, 5, 82);;
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -196,7 +197,7 @@
     border-radius: 4px;
     font-size: 15px;
     font-weight: 600;
-    background-color: red;
+    background-color: rgb(28, 5, 82);;
     color: white;
     margin-left: 5px;
 }
@@ -227,4 +228,20 @@
     flex-direction: row;
     justify-content: center;
     gap:25px;
+}
+.footer{
+    background-color: rgb(28, 5, 82);
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+.HR{
+    float: right;
+    padding-left: 70px;
+    width:50%;
+    line-height: 30px;
+    padding-right: 70px;
+    
+    
+    
 }
