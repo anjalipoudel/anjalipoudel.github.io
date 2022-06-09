@@ -32,15 +32,19 @@
 }
 
 .home-content {
-    text-shadow: 4px 3px 0 #6d6d69, 9px 8px 0 rgba(8, 1, 1, 0.15);
+    padding-top: 110px;
+
 }
 
+.intro {
+    font-size: 48px;
+}
 
 .menu li {
     list-style-type: none;
     padding-top: 20px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 14px;
     color: aliceblue;
 }
 
@@ -60,14 +64,14 @@
     color: white;
     background-color: rgb(94, 36, 255);
     width: 100%;
-    height: 500px;
+    height:600px;
     padding-top: 150px;
     font-size: 50px;
     line-height: 60px;
     padding-left: 100px;
     font-weight: 700;
     font-family: sans-serif;
-    
+
 }
 
 .section-heading {
@@ -81,7 +85,8 @@
 
 .section-subheading {
     text-align: center;
-    color: rgb(28, 5, 82);;
+    color: rgb(28, 5, 82);
+    ;
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -103,19 +108,16 @@
 
 
 .section-text p {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 30px;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .section-imageholder {
-    width: 50%;
-    padding-left: 10%;
     object-fit: cover;
 }
 
 .about-image {
-    /* float: right; */
     height: 350px;
     width: 350px;
     border-radius: 5px;
@@ -123,18 +125,22 @@
 
 .section-wrapper {
     justify-content: center;
-    padding: 5% 5% 5% 10%;
+    padding: 5% 5% 5% 5%;
 }
 
 
 .contact-section .section-text {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .contact-section {
     text-align: left;
     line-height: 30px;
+}
+
+.contact-text {
+    font-size: 15px;
 }
 
 .mid-content {
@@ -160,6 +166,7 @@
     text-align: justify;
     font-size: 20px;
     line-height: 30px;
+
 
 }
 
@@ -197,7 +204,8 @@
     border-radius: 4px;
     font-size: 15px;
     font-weight: 600;
-    background-color: rgb(28, 5, 82);;
+    background-color: rgb(28, 5, 82);
+    ;
     color: white;
     margin-left: 5px;
 }
@@ -227,21 +235,88 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:25px;
+    gap: 25px;
 }
-.footer{
+
+.one {
+    font-size: 15px;
+}
+
+.footer {
     background-color: rgb(28, 5, 82);
     width: 100%;
     text-align: center;
     color: aliceblue;
+    margin-top: 100px;
+    height: 70px;
+    padding-top: 30px;
+
 }
-.HR{
-    float: right;
-    padding-left: 70px;
-    width:50%;
-    line-height: 30px;
-    padding-right: 70px;
-    
-    
-    
+
+.skill-set {
+    width: 100%;
+
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.html {
+    width: 70%;
+    background: radial-gradient(circle, rgba(46, 9, 25, 1) 0%, rgba(35, 10, 77, 1) 100%);
+
+}
+
+.css {
+    width: 50%;
+
+    background: radial-gradient(circle, rgba(46, 9, 25, 1) 0%, rgba(35, 10, 77, 1) 100%);
+}
+
+.js {
+    width: 45%;
+
+    background: radial-gradient(circle, rgba(46, 9, 25, 1) 0%, rgba(35, 10, 77, 1) 100%);
+}
+
+.php {
+    width: 30%;
+    background: radial-gradient(circle, rgba(46, 9, 25, 1) 0%, rgba(35, 10, 77, 1) 100%);
+}
+
+.about-image1 {
+    height:250px;
+    width: 250px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 10px 10px;
+    gap: 15px;
+
+}
+
+/* .about-image1  img{
+    height: 350px;
+    width: auto;
+    object-fit: cover;
+
+} */
+
+.about-image {
+    height: 325px;
+    width: 325px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.project-wrapper{
+    padding-top:30px;
+    text-align: center;
 }
