@@ -32,7 +32,7 @@
 }
 
 .home-content {
-    padding-top: 110px;
+    padding-top: 90px;
 
 }
 
@@ -74,12 +74,13 @@
 
 }
 
-.section-heading {
-    padding-top: 40px;
+.section-heading{ 
+    padding-top: 100px;
     padding-bottom: 10px;
     text-align: center;
     font-size: 40px;
     font-family: 'Ubuntu', sans-serif;
+    color: rgb(28, 5, 82);
 
 }
 
@@ -136,7 +137,6 @@
 
 .contact-section {
     text-align: left;
-    line-height: 30px;
 }
 
 .contact-text {
